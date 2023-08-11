@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "24113059359",
+    "project_id": "catatan-harian-cade2",
+    "storage_bucket": "catatan-harian-cade2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:24113059359:android:73582ad141dab3fcf7e72a",
+        "android_client_info": {
+          "package_name": "com.eky.catatanharian"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "24113059359-s6kf13chvokujmdn7ukf93aj8s6h65qg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD7wQq8SiHktEixA9RCh0IfX0_Q92tPfKQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "24113059359-s6kf13chvokujmdn7ukf93aj8s6h65qg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

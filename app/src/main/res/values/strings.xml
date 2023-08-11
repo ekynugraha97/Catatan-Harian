@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Catatan Harian</string>
+
+    <string name="screen1">Hari demi Hari</string>
+    <string name="screen2">Merekam Jejak Waktu</string>
+    <string name="screen3">Momen dalam Kata</string>
+
+    <string name="screen1desc">Mulai Petualangan Catatan Harianmu!</string>
+    <string name="screen2desc">Catatan Harian Digital untuk Jiwa Kreatifmu</string>
+    <string name="screen3desc">Temukan Terapi Kesehatan Mental melalui Catatan Harian</string>
+</resources>

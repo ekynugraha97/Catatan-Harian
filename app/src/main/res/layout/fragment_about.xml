@@ -1,0 +1,51 @@
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:padding="16dp">
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/aboutCard"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardElevation="4dp"
+        app:cardCornerRadius="8dp"
+        app:cardUseCompatPadding="true">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="16dp">
+
+            <TextView
+                android:id="@+id/companyName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Catatan Harian"
+                android:fontFamily="@font/poppins_semibold"
+                android:textAlignment="center"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/aboutText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Aplikasi Catatan Harian adalah sebuah aplikasi yang dirancang untuk membantu pengguna dalam menyimpan dan mengelola catatan atau memo harian mereka. Aplikasi ini memungkinkan pengguna untuk membuat, mengedit, dan menghapus catatan harian berdasarkan judul, kategori, dan isi. Selain itu, aplikasi ini juga menyediakan fitur pencarian dan tampilan daftar catatan yang dapat diurutkan berdasarkan kategori atau tanggal pembuatan. Dengan antarmuka yang intuitif dan sederhana, pengguna dapat dengan mudah mencatat pengalaman, ide, atau informasi penting sehari-hari dalam bentuk digital yang mudah diakses dan dikelola."
+                android:textAlignment="center"
+                android:fontFamily="@font/poppins"
+                app:layout_constraintStart_toStartOf="@id/companyName"
+                app:layout_constraintTop_toBottomOf="@id/companyName"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:layout_marginTop="16dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="16dp"
+                android:layout_marginBottom="16dp" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </com.google.android.material.card.MaterialCardView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
